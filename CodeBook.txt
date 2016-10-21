@@ -1,0 +1,43 @@
+Code Book
+----------------
+
+This is a code book describing the various variabls and data givien in the following 2 files - tidy_data.txt, tidy_data_avg.txt. 
+For more details on this data set and expolanation - please see UCI dataset website (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
+tidy_data.txt, tidy_data_avg.txt
+--------------------
+
+subjectID:    An integer number between 1 and 30 for each subject that had their data recorded. All subjects are from a group of 30 volunteers.
+
+activity:  This is the activity taking place when the biomechanical measurements were taken:
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5.STANDING
+6. LAYING
+
+Measurement:    The feature being measured.
+           
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
+- Triaxial Angular velocity from the gyroscope. 
+- Features containing 'Acc' is an accelerometer measurement
+- Features containing 'Gyro' it is a gyroscope  measurement
+
+The data has been subsetted to only show means and standard deviation measurements. The axis/direction is also included in this data column. 
+
+Value: These are vaious measurements from the study. All values are between -1 and +1.
+
+
+tidy_data_avg.txt
+----------------
+
+subjectID:   same as in previous 'tidy_data.txt'
+
+activity:  same as in previous 'tidy_data.txt'
+
+Measurement: same as in previous 'tidy_data.txt'
+
+Avg_Value:  The average of the means across all vectors grouped by following variables: subject, activity, feature(Measurement)
+
+
